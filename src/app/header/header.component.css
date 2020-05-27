@@ -1,0 +1,16 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black; 
+    color: brown;
+    text-align: center;
+    } 
+.todoheader{
+    padding-top: 20px;
+}
+h5 a{
+    color: blanchedalmond;
+    text-decoration: underline;
+    padding: 0 10px;
+    cursor: pointer;
+}

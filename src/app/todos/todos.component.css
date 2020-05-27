@@ -1,0 +1,20 @@
+.datas {
+    margin-top: 30px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.datas ul li{
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+.datas ul{
+    
+}
+.x {
+    float: right;
+    margin-right: 50px;
+}
+.is-completed {
+    text-decoration: line-through;
+}

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TodoAnimation"
+    }
+  },
+  "defaultProject": "TodoAnimation",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Add List</h1>
+  <form>
+    <div class="form-group">
+      <!-- <label for="name">Name</label> -->
+      <input type="text" class="form-control"  name="fname" [(ngModel)]="fname" required>
+    </div>
+    <button (click)="onSubmit()" class="btn btn-success">Submit</button>
+  </form>
+
+  <div class="container datas">
+    <ul *ngFor="let todo of todos" [ngStyle]="{'text-decoration': todo.completed  ? 'line-through' : 'none'}">
+      <li  @fade>
+        <input type="checkbox" name="title" (change)='FieldsChange(todo)'
+         [checked]="todo.completed" />
+        {{todo.title}}
+        <button (click)="Delete(todo)" class="btn x btn-danger btn-sm">Delete</button>
+      </li>
+    </ul>
+  </div>
+</div>
